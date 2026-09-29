@@ -1,18 +1,14 @@
 import Link from "next/link";
+import EventExplorer from "@/components/EventExplorer.jsx";
 
 export default function EventsPage() {
   return (
-    <main className="min-h-screen bg-slate-50 p-8">
-      <Link href="/" className="text-blue-600 hover:underline">
-        ← Back to Home
-      </Link>
+    <main>
+      <Link href="/">← Back to Home</Link>
 
-      <div className="mx-auto mt-12 max-w-4xl text-center">
-        <h1 className="text-4xl font-bold text-slate-900">Events</h1>
-        <p className="mt-4 text-slate-600">
-          Events screen placeholder. Event listings will be added here.
-        </p>
-      </div>
+      <h1>Campus Events</h1>
+
+      <EventExplorer />
     </main>
   );
 }

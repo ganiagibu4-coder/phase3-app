@@ -1,0 +1,58 @@
+export const events = [
+  {
+    id: "ai-workshop",
+    title: "AI & Machine Learning Workshop",
+    category: "Workshop",
+    date: "2026-10-03",
+    time: "10:00 AM",
+    venue: "Innovation Lab",
+    description: "A beginner-friendly workshop covering practical AI and machine learning concepts.",
+  },
+  {
+    id: "tinkerhub-talk",
+    title: "Building with Open Source",
+    category: "Tech Talk",
+    date: "2026-10-05",
+    time: "2:00 PM",
+    venue: "Seminar Hall",
+    description: "Learn how students can contribute to open-source projects and build in public.",
+  },
+  {
+    id: "cultural-night",
+    title: "Campus Cultural Night",
+    category: "Cultural",
+    date: "2026-10-09",
+    time: "5:30 PM",
+    venue: "Main Auditorium",
+    description: "An evening of music, dance, performances, and student creativity.",
+  },
+  {
+    id: "sports-meet",
+    title: "Inter-Department Sports Meet",
+    category: "Sports",
+    date: "2026-10-11",
+    time: "9:00 AM",
+    venue: "College Ground",
+    description: "A friendly inter-department competition featuring multiple campus sports.",
+  },
+  {
+    id: "design-jam",
+    title: "UI/UX Design Jam",
+    category: "Workshop",
+    date: "2026-10-14",
+    time: "11:00 AM",
+    venue: "Design Studio",
+    description: "A hands-on design session focused on solving a campus problem through rapid prototyping.",
+  },
+  {
+    id: "cybersecurity-talk",
+    title: "Cybersecurity for Students",
+    category: "Tech Talk",
+    date: "2026-10-17",
+    time: "3:00 PM",
+    venue: "Computer Lab 2",
+    description: "An introduction to everyday cybersecurity, privacy, and safer digital habits.",
+  },
+];
+
+export const categories = ["All", "Workshop", "Tech Talk", "Cultural", "Sports"];
